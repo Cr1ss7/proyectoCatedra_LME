@@ -37,6 +37,7 @@ body{
 .letra>div{
     width:40%;
     min-width:240px;
+    padding:10px;
 }
 
 .container{
