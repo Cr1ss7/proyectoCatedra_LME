@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+body{
+    background-color: #ffffff;
+  
+}
+
+
+
+
+
+
+/*Conntainer 1*/
+.Container1{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 110px;
+    padding-bottom: 50px;
+
+}
+
+.subContainer1{
+    display: flex;
+    margin: 10px 10px;
+    min-width: 40vh;
+    
+
+}
+
+.padre11{
+    width: 80vh;
+    height: auto;
+    text-align: justify;
+    margin: auto;
+    align-items: center;
+}
+.padre12{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 100vh;
+    height: auto;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+
+
+
+}
+
+
+.slider{
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    max-width: 960px;
+    max-height: 440px;
+    overflow: hidden;
+    
+}
+
+.boton{
+    position: absolute;
+    display: block;
+    bottom: 30px;
+    margin: 0;
+    padding: 0;
+    z-index: 999;
+    opacity: 0;
+    cursor: pointer;
+
+    
+}
+
+.boton:nth-child(1){
+    left: 30px;
+}
+
+.boton:nth-child(3){
+    left: 60px;
+}
+
+.boton:nth-child(5){
+    left: 90px;
+}
+
+.boton:nth-child(7){
+    left: 120px;
+}
+
+/*En esta parte colocamos todas las imagenes detras de todas para hacer el efecto*/
+.contenedor-img img{
+   
+    float: left;
+}
+.cuatro-imagenes{
+    width: 500%;
+}
+
+.cuatro-imagenes img{
+   
+    margin: 0;
+    padding: 0;
+    width: 20%;
+
+}
+
+
+
+/*hacemos la transicion de las imagenes*/
+.contenedor-img{
+   
+    left: 0;
+    /*transition: left .3s ease-in;*/   /*CON ESTEO HACEMOS EL CAMBIO CON EL BOTON*/
+    animation: cambio 20s infinite alternate;
+}
+/*CON ESTEO HACEMOS EL CAMBIO AUTOMATICO*/
+@keyframes cambio{
+
+    0%{
+        margin-left: 0;
+    }
+    20%{
+        margin-left: 0;
+    }
+
+
+    25%{
+        margin-left: -100%;
+    }
+    45%{
+        margin-left: -100%;
+    }
+
+    50%{
+        margin-left: -200%;
+    } 
+    70%{
+        margin-left: -200%;
+    }
+
+    75%{
+        margin-left: -300%;
+    }
+    100%{
+        margin-left: -300%;
+    }
+}
+
+/*FIN DE SLIDER */
+
+
+
+
+
+
+/*container 2*/
+.Container2{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 100px;
+    
+ 
+
+}
+.subContainer2{
+    display: flex;
+    margin: 30px 60px;
+    justify-content: center;
+    min-width: 40vh;
+    margin-bottom: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+.padre{
+    
+    width: 50vh;
+    height: auto;
+    padding: 10px 10px;
+    text-align: justify;
+ 
+
+
+    
+}
+
+.hijo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    width: auto;
+
+}
+.Container2 .img2{
+    width: 35%;
+}
+
+
+
+
+

@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: white;
+}
+
+article{
+    width: 100%;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.form-container{
+    background-color: #fff;
+    width: 500px;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 200px;
+    border: 1px solid black;
+    margin-bottom: 10%;
+    border-radius: 16px;
+    box-shadow: -2px 1px 70px -8px rgba(0,0,0,0.66);
+    -webkit-box-shadow: -2px 1px 70px -8px rgba(0,0,0,0.66);
+    -moz-box-shadow: -2px 1px 70px -8px rgba(0,0,0,0.66);
+}
+
+
+
+.input-text{
+    width: 70%;
+    padding: 10px;
+    margin: 20px;
+}
+
+.logo-form{
+    width: 100px;
+    margin: 10px;
+}
+
+.input-email{
+    width: 70%;
+    margin: 20px;
+    padding: 10px;
+}
+
+.input-tel{
+    width: 70%;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+.input-submit{
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin: 20px;
+    color: white;
+    background-color: blue;
+}
+
+form{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px;
+    min-width: 200px;
+    margin-top: 5%;
+}
+
+
+
+
+.iframe-container{
+    padding-bottom: 5%;
+    width: 100%;
+    height: 300px;
+}
+
+.iframe-container iframe{
+    width: 100%;
+    height: 100%;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+@media (max-width: 390px){
+    .iframe-container iframe{
+        width: 50%;
+        height: 300px;
+    }
+}

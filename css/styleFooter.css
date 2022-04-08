@@ -1,0 +1,112 @@
+/*footeer*/
+
+footer{
+    background-color: #0f2f76;
+    width: 100%;
+    height: auto;
+
+}
+
+/*FOOTE*/
+.conntaneFooter{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ padding: 15px 15px;
+
+
+
+
+}
+
+/*cotainer 1*/
+.footerrContainer1{
+    width: 70vh;
+    color: white;
+
+
+   
+ 
+}
+.footerrContainer1 p{
+    text-align: justify;
+  
+}
+.subcontainer1{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+.subcontainer1 img{
+    width: 20%;
+}
+
+
+
+/*containner 2*/
+.footerrContainer2{
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    align-items: center;
+    padding-top: 10px;
+    color: white;
+
+
+    
+   
+   
+   
+    
+}
+
+.subcontainer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+  
+
+}
+.subcontainer2 img{
+    margin-right: 6px;
+    width: 15%;
+}
+
+
+
+
+/*containerr 3*/
+.footerrContainer3{
+    width: 60vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    color: white;
+   
+    
+}
+.subcontainer3{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+
+}
+.subcontainer3 a{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+
+}
+.subcontainer3 a .imgFoter{
+    width: 50px;
+    height: 50px;
+    margin: 5px 20px;
+    
+}
+

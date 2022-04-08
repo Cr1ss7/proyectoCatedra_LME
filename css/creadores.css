@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+    color: white;
+}
+
+/*CONTENIDO DE PAGINA*/
+#cont{
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+.creador1, .creador2, .creador3, .creador4, .creador5{
+   display: flex;
+   align-items: center;
+   margin: 20px;
+   font-size: 15px;
+   font-weight: lighter;
+   text-align: justify;
+   background-color: #33ABE9;
+   padding: 20px;
+   border-radius: 5px;
+   color: white;
+   box-shadow: 5px 5px 5px #007EFF;
+   border: 1px solid #007EFF;
+   width: 42%;
+}
+
+#cont img{
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+#nombre{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #1532D8;
+}
+
+@media (max-width: 900px){
+    .creador1, .creador2, .creador3, .creador4, .creador5{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    #nombre{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+/*FOOTER*/
+footer{
+    background-color: #2e3264;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.conntaneFooter{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ padding: 15px 15px;
+}
+
+/*cotainer 1*/
+.footerrContainer1{
+    width: 70vh;
+    color: white;
+}
+
+.footerrContainer1 p{
+    text-align: justify;
+}
+
+.subcontainer1{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subcontainer1 img{
+    width: 50px;
+    height: 50px;
+}
+
+/*containner 2*/
+.footerrContainer2{
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    align-items: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.subcontainer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px 0;
+}
+
+.subcontainer2 img{
+    width: 50px;
+    height: 50px;
+}
+
+/*containerr 3*/
+.footerrContainer3{
+    width: 60vh;
+
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+
+    padding-top: 10px;
+    color: white;
+}
+
+.subcontainer3{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    margin: 5px 20px;
+}
