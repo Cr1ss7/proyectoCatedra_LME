@@ -1,0 +1,87 @@
+.contenedor{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.titulo{
+    text-align: center;
+    align-items: center;
+    margin: 0;
+}
+
+.color{
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    font-size: 20%;
+    text-align: center;
+}
+
+.foto{
+    justify-content: center;
+    padding-top: 10px;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.text{
+    font-size: 17px;
+    max-width:90% ;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 25px ;
+    display: flex;
+    overflow: hidden;
+}
+
+.cout{
+    width: 100%;
+}
+
+
+
+.container{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10%;
+}
+
+.letra img{
+    width: 70%;
+    overflow: hidden;
+    display: flex;
+    border-radius: 5px;
+    float:left;
+    margin-right: 5px;
+}
+
+.letra{
+    display: flex;
+    
+    flex-direction: row;
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.5;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.letra>div{
+    width:60%;
+    min-width:360px;
+    padding:10px;
+}
+
+.container{
+    padding-top: 30px;
+
+}
+
+.letra h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
